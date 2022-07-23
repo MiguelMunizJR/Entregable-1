@@ -1,0 +1,16 @@
+.card__btn {
+  width: 2.8rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 1px 7px #7a7a7a;
+  cursor: pointer;
+}
+.card__btn:hover {
+  box-shadow: 1px 1px 10px #4d4d4d;
+  transform: scale(1.01);
+  transition: box-shadow 100ms;
+}

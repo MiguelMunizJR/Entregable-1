@@ -1,0 +1,28 @@
+.card__container {
+  padding: 0.5rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  font-family: "Kanit", sans-serif;
+}
+.fa-quote-left {
+  margin: 0 0.5rem;
+  font-size: 2.5rem;
+}
+.fa-shuffle {
+  font-size: 1.4rem;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+.card__quote {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.card__author {
+  font-size: 1rem;
+  font-weight: 200;
+}
